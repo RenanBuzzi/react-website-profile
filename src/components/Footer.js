@@ -14,24 +14,26 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>Home</h2>
-            <Link to="/sign-up">Home Page</Link>
+            <Link to="/">Home Page</Link>
           </div>
           <div class="footer-link-items">
             <h2>About</h2>
-            <Link to="/sign-up">Abount</Link>
+            <Link to="/About">Abount</Link>
+          </div>
+          <div class="footer-link-items">
+            <h2>Career</h2>
+            <Link to="/Career">Career</Link>
           </div>
           <div class="footer-link-items">
             <h2>Contact</h2>
-            <Link to="/">Contact Me</Link>
+            <Link to="/Contact">Contact</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="https://www.linkedin.com/in/renangasparbuzzi">
-              Linkedin
-            </Link>
-            <Link to="https://github.com/RenanBuzzi">GitHub</Link>
+            <a href="https://www.linkedin.com/in/renangasparbuzzi">Linkedin</a>
+            <a href="https://github.com/RenanBuzzi">GitHub</a>
           </div>
         </div>
       </div>

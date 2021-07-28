@@ -1,0 +1,6 @@
+.space{
+    padding-top: 20px;
+    height: 200px;
+    width: auto;
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, #ea1d63 200%);
+}
