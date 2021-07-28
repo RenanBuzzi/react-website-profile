@@ -16,7 +16,7 @@ const About = () => {
       </div> */}
       <div className="AboutCenterPage">
         <div>
-          <img className="images" src="images/life.jpg" />
+          <img className="images" alt="life" src="images/life.jpg" />
         </div>
         <div className="Life">Life...</div>
         <div className="SubTile">Who is Renan Buzzi?</div>
@@ -32,7 +32,7 @@ const About = () => {
           and always seeking to update myself with new technologies.
         </div>
         <div>
-          <img className="images" src="images/education.jpg" />
+          <img className="images" alt="education" src="images/education.jpg" />
         </div>
         <div className="Education">Education</div>
         <div className="SubTile">Everything about my background.</div>
@@ -46,7 +46,7 @@ const About = () => {
           at AGILE methodology. Scrum Master and Scrum fundamentals.
         </div>
         <div>
-          <img className="images" src="images/Skills1.jpg" />
+          <img className="images" alt="skills" src="images/Skills1.jpg" />
         </div>
         <div className="Skill">Skills</div>
         <div className="SubTile">My top skills.</div>
@@ -74,7 +74,7 @@ const About = () => {
         </div> */}
 
         <div>
-          <img className="images" src="images/hobby.jpg" />
+          <img className="images" alt="hobby" src="images/hobby.jpg" />
         </div>
         <div className="Hobbies">Hobbies</div>
         <div className="SubTile">My passions in my spare time.</div>

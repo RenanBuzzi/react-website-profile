@@ -6,7 +6,6 @@ import useForm from "./useForm";
 import "../Pages/Contact.css";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-// import "@fontsource/roboto";
 import { Grid, TextField, Button } from "@material-ui/core";
 
 toast.configure();
@@ -59,11 +58,14 @@ export default function Contact() {
       ...temp,
     });
 
-    if (fieldValues == values) return Object.values(temp).every((x) => x == "");
+    if (fieldValues === values)
+      return Object.values(temp).every((x) => x === "");
   };
 
-  const { values, setValues, errors, setErrors, handleInputChange, resetForm } =
-    useForm(initialFieldValues, validate);
+  const { values, errors, setErrors, handleInputChange, resetForm } = useForm(
+    initialFieldValues,
+    validate
+  );
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -81,10 +83,18 @@ export default function Contact() {
     <>
       <div class="ContainerLeft">
         <div className="logoContactMe">
-          <img className="imagesContact" src="images/contactme2.jpg" />
+          <img
+            className="imagesContact"
+            alt="contact"
+            src="images/contactme2.jpg"
+          />
         </div>
         <div className="LogoRGB">
-          <img className="imagesLogoRGB" src="images/logo_transparent.png" />
+          <img
+            className="imagesLogoRGB"
+            alt="logo"
+            src="images/logo_transparent.png"
+          />
         </div>
       </div>
       <div className="ContainerRight">

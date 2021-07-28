@@ -7,7 +7,7 @@ const Education = () => {
     <>
       <div className="mainContainer">
         <div class="imgLogo">
-          <img className="imgCareer" src="images/ibta.png" />
+          <img className="imgCareer" alt="ibta" src="images/ibta.png" />
         </div>
         <div class="companyDetails">
           <div class="role">IBTA - Brazilian Technology Advanced Institute</div>
@@ -66,7 +66,11 @@ const Education = () => {
 
       <div className="mainContainer">
         <div class="imgLogo">
-          <img className="imgCareerDrummond" src="images/drummond.jpg" />
+          <img
+            className="imgCareerDrummond"
+            alt="drummond"
+            src="images/drummond.jpg"
+          />
         </div>
         <div class="companyDetails">
           <div class="role">IBTA - Brazilian Technology Advanced Institute</div>

@@ -7,7 +7,7 @@ const Experiences = () => {
     <>
       <div className="mainContainer">
         <div class="imgLogo">
-          <img className="imgCareer" src="images/PRS.png" />
+          <img className="imgCareer" alt="prs" src="images/PRS.png" />
         </div>
         <div class="companyDetails">
           <div class="role">C# Developer</div>
@@ -54,7 +54,11 @@ const Experiences = () => {
       {/* Second Company */}
       <div className="mainContainer">
         <div class="imgLogo">
-          <img className="imgCareer" src="images/RedClound.png" />
+          <img
+            className="imgCareer"
+            alt="reclound"
+            src="images/RedClound.png"
+          />
         </div>
         <div class="companyDetails">
           <div class="role">Software Engineer - Full-time</div>
@@ -97,7 +101,7 @@ const Experiences = () => {
       {/* Thirt Company */}
       <div className="mainContainer">
         <div class="imgLogo">
-          <img className="imgCareer" src="images/roche.png" />
+          <img className="imgCareer" alt="roche" src="images/roche.png" />
         </div>
         <div class="companyDetails">
           <div class="role">Software Engineer - Full-time</div>
@@ -170,7 +174,7 @@ const Experiences = () => {
 
       <div className="mainContainer">
         <div class="imgLogo">
-          <img className="imgCareer" src="images/deal.jpg" />
+          <img className="imgCareer" alt="deal" src="images/deal.jpg" />
         </div>
         <div class="companyDetails">
           <div class="role">Senior Software Engineer - Full-time</div>
@@ -244,7 +248,7 @@ const Experiences = () => {
       </div>
       <div className="mainContainer">
         <div class="imgLogo">
-          <img className="imgCareer" src="images/ePago.jpg" />
+          <img className="imgCareer" alt="epago" src="images/ePago.jpg" />
         </div>
         <div class="companyDetails">
           <div class="role">System Analyst - Full-time</div>
@@ -300,7 +304,11 @@ const Experiences = () => {
 
       <div className="mainContainer">
         <div class="imgLogo">
-          <img className="imgCareer" src="images/telefonica.jpg" />
+          <img
+            className="imgCareer"
+            alt="tefefonica"
+            src="images/telefonica.jpg"
+          />
         </div>
         <div class="companyDetails">
           <div class="role">Business Analyst (Midle) - Full-time</div>
@@ -351,7 +359,7 @@ const Experiences = () => {
 
       <div className="mainContainer">
         <div class="imgLogo">
-          <img className="imgCareer" src="images/bsi.png" />
+          <img className="imgCareer" alt="bsi" src="images/bsi.png" />
         </div>
         <div class="companyDetails">
           <div class="role">Software Enginner Junior/Senior - Full-time</div>

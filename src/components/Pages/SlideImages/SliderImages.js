@@ -1,6 +1,4 @@
-import React from "react";
-
-export default [
+const slides = [
   {
     title: "First Slide",
     description: "This is the first Slider of our Carousel.",
@@ -17,3 +15,4 @@ export default [
     urls: "https://mdbootstrap.com/img/Photos/Slides/img%20(132).jpg",
   },
 ];
+export default slides;
