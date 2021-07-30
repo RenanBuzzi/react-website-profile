@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=sawp");
+
+@media screen and (max-width: 2000px) {
 .navbar {
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, #ea1d63 200%);
   height: 80px;
@@ -11,7 +13,6 @@
   top: 0;
   z-index: 999;
 }
-
 .navbar-container {
   display: flex;
   justify-content: center;
@@ -27,7 +28,7 @@
   text-decoration: none;
   font-size: 1.9rem;
   display: flex;
-  align-items: center;
+  align-items: left;
 }
 .navbar-logo:hover {
   opacity: 0.8;
@@ -50,7 +51,7 @@
   grid-gap: 30px;
   list-style: none;
   text-align: center;
-  width: 82vw;
+  width: 80vw;
   justify-content: end;
   margin-right: 2rem;
 }
@@ -85,6 +86,21 @@
 
 .menu-icon {
   display: none;
+}
+}
+
+@media screen and (max-width: 1600px) {
+  
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 30px;
+  list-style: none;
+  text-align: center;
+  width: 75vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
 }
 
 @media screen and (max-width: 960px) {
@@ -192,14 +208,6 @@
     color: #fff;
     padding: 14px 20px;
     transition: all 0.3s ease-out;
-  }
-  .fa-facebook {
-    background: transparent;
-    color: white;
-    padding: 20px 20px 20px 20px;
-    font-size: 50px;
-    width: 90%;
-    display: inline;
   }
   .fa-linkedin {
     background: transparent;
