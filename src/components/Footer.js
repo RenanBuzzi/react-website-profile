@@ -29,41 +29,40 @@ function Footer() {
             <Link to="/Contact">Contact</Link>
           </div>
         </div>
-        <div className="footer-link-wrapper">
+        {/* <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>Social Media</h2>
             <a href="https://www.linkedin.com/in/renangasparbuzzi">Linkedin</a>
             <a href="https://github.com/RenanBuzzi">GitHub</a>
           </div>
-        </div>
+        </div> */}
       </div>
       <section class="social-media">
         <div class="social-media-wrap">
           <div class="footer-logo">
             <Link to="/" className="social-logo">
-              <i class="fa fa-code" aria-hidden="true"></i>&nbsp;Renan
-              Buzzi&nbsp; <i class="fa fa-code" aria-hidden="true"></i>
+              <i class="fa fa-code" aria-hidden="true"></i>&nbsp;Renan Buzzi ©
+              2021&nbsp; <i class="fa fa-code" aria-hidden="true"></i>
             </Link>
           </div>
-          <small class="website-rights">Renan Buzzi © 2021</small>
-          <div class="social-icons">
-            <a
-              class="social-icon-link"
-              href="https://github.com/RenanBuzzi"
-              target="#"
-              aria-label="GitHub"
-            >
-              <i class="fa fa-github" />
-            </a>
-            <a
-              class="social-icon-link"
-              href="https://www.linkedin.com/in/renangasparbuzzi"
-              target="#"
-              aria-label="Linkedin"
-            >
-              <i class="fab fa-linkedin" />
-            </a>
-          </div>
+        </div>
+        <div class="social-icons">
+          <a
+            class="social-icon-link"
+            href="https://github.com/RenanBuzzi"
+            target="#"
+            aria-label="GitHub"
+          >
+            <i class="fa fa-github" />
+          </a>
+          <a
+            class="social-icon-link"
+            href="https://www.linkedin.com/in/renangasparbuzzi"
+            target="#"
+            aria-label="Linkedin"
+          >
+            <i class="fab fa-linkedin" />
+          </a>
         </div>
       </section>
     </div>

@@ -32,7 +32,6 @@ function Navbar() {
             &nbsp;Renan Buzzi&nbsp;
             <i class="fa fa-code" aria-hidden="true"></i>
           </Link>
-
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fa fa-times" : "fa fa-bars"} />
           </div>
