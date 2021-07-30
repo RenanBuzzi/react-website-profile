@@ -82,20 +82,8 @@ export default function Contact() {
   return (
     <>
       <div class="ContainerLeft">
-        <div className="logoContactMe">
-          <img
-            className="imagesContact"
-            alt="contact"
-            src="images/contactme2.jpg"
-          />
-        </div>
-        <div className="LogoRGB">
-          <img
-            className="imagesLogoRGB"
-            alt="logo"
-            src="images/logo_transparent.png"
-          />
-        </div>
+        <div className="logoContactMe"></div>
+        <div className="LogoRGB"></div>
       </div>
       <div className="ContainerRight">
         <form autoComplete="off" noValidate onSubmit={handleSubmit}>
