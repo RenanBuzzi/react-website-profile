@@ -52,7 +52,7 @@ const CarouselAbout = () => {
           ))}
         </Slider>
       </div>
-      <div>
+      {/* <div>
         <Slider>
           <div class="content">
             <div class="slider-wrapper">
@@ -66,7 +66,7 @@ const CarouselAbout = () => {
             </div>
           </div>
         </Slider>
-      </div>
+      </div> */}
     </>
   );
 };

@@ -1,3 +1,4 @@
+@media only screen and (max-width: 2000px) {
 .ContainerRight {
   margin-left: 50%;
   width: 50%;
@@ -17,7 +18,7 @@
 }
 .buttonSubmit {
   margin-bottom: 10px;
-  margin-left: 10px;
+  margin-left: 13px;
 }
 .LogoRGB {
   width: 150px;
@@ -37,6 +38,7 @@
   margin-top: 0px;
   margin-left: 20px;
 }
+}
 
 @media screen and (max-width: 1600px) {
   .ContainerRight {
@@ -48,6 +50,10 @@
     height: 472px;
     background: linear-gradient(90deg, rgb(28, 27, 27) 0%, #ea1d63 400%);
     float: left;
+  }
+  .buttonSubmit {
+    margin-bottom: 10px;
+    margin-left: 20px;
   }
 }
 

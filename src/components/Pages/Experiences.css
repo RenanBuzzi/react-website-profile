@@ -1,3 +1,4 @@
+@media only screen and (max-width: 2000px) {
 .mainContainer {
   width: 100%;
   height: 100%;
@@ -10,9 +11,9 @@
   margin-left: 250px;
 }
 .imgCareerDrummond {
-  size: 140px;
-  height: 140px;
-  margin-left: 240px;
+  size: 130px;
+  height: 130px;
+  padding-left: 40px;
 }
 .title {
   size: 50px;
@@ -67,14 +68,41 @@
   color: slategrey;
 }
 .subtitile {
-  margin-left: 160px;
+  margin-left: 60px;
   margin-top: 20px;
   font-size: 15px;
   margin-bottom: 20px;
   font-weight: bold;
 }
 .totalHours {
-  margin-left: 160px;
+  margin-left: 60px;
   font-size: 15px;
   font-weight: bold;
+}
+}
+
+@media only screen and (max-width: 506px) {
+  .mainContainer {
+    width: 100%;
+    height: 100%;
+    padding-right: 15px;
+    margin-top: 0px;
+  }
+  .subtitile {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  .imgCareerDrummond {
+    size: 55px;
+    height: 55px;
+    padding-left: 0px;
+  }
+  .totalHours {
+    margin-left: 30px;
+    font-size: 10px;
+    font-weight: bold;
+  }
 }

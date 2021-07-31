@@ -125,8 +125,8 @@ const Education = () => {
           <div className="totalHours">COURSE COMPLETION WORK 60h</div>
           <div className="lastItem"></div>
         </div>
-        <div className="role">Certificates</div>
-        <div className="subtitile">My achievements and certificates.</div>
+        <div className="certificates">Certificates</div>
+        <div className="achivements">My achievements and certificates.</div>
         <CarouselAbout />
       </div>
     </>
