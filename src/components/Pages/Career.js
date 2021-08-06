@@ -64,17 +64,23 @@ const Career = () => {
 
   return (
     <>
-      <Paper square className="sticky">
-        <Tabs
-          variant="fullWidth"
-          value={value}
-          onChange={handleChange}
-          aria-label="nav tabs example"
-        >
-          <LinkTab label="Experiences" href="/Experiences" {...a11yProps(0)} />
-          <LinkTab label="Education" href="/Education" {...a11yProps(1)} />
-        </Tabs>
-      </Paper>
+      <div className="tabs">
+        <Paper square className="sticky">
+          <Tabs
+            variant="fullWidth"
+            value={value}
+            onChange={handleChange}
+            aria-label="nav tabs example"
+          >
+            <LinkTab
+              label="Experiences"
+              href="/Experiences"
+              {...a11yProps(0)}
+            />
+            <LinkTab label="Education" href="/Education" {...a11yProps(1)} />
+          </Tabs>
+        </Paper>
+      </div>
       <TabPanel value={value} index={0}>
         <Experiences />
       </TabPanel>

@@ -6,9 +6,9 @@ function Footer() {
   return (
     <div className="footer-container">
       <section className="footer-subscription">
-        <p className="footer-subscription-heading">
+        {/* <p className="footer-subscription-heading">
           All details about my page and some extra information.
-        </p>
+        </p> */}
       </section>
       <div class="footer-links">
         <div className="footer-link-wrapper">
@@ -29,13 +29,6 @@ function Footer() {
             <Link to="/Contact">Contact</Link>
           </div>
         </div>
-        {/* <div className="footer-link-wrapper">
-          <div class="footer-link-items">
-            <h2>Social Media</h2>
-            <a href="https://www.linkedin.com/in/renangasparbuzzi">Linkedin</a>
-            <a href="https://github.com/RenanBuzzi">GitHub</a>
-          </div>
-        </div> */}
       </div>
       <section class="social-media">
         <div class="social-media-wrap">

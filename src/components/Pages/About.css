@@ -123,6 +123,11 @@
   border-radius: 25px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 8);
 }
+.List {
+  margin-left: 60px;
+  margin-top: 5px;
+  width: 900px;
+}
 /*Mediun Size netWorkImageAbout*/
 @media screen and (max-width: 1600px) {
   .MainPhrase {
@@ -208,7 +213,7 @@
     width: 200px;
     margin-left: 15%;
     height: 80px;
-    color: #ea1d63;
+    color: orange;
     font-size: 4.6rem;
     opacity: 0.9;
     position: absolute;
@@ -238,7 +243,7 @@
     width: 200px;
     margin-left: 15%;
     height: 80px;
-    color: #ea1d63;
+    color: green;
     font-size: 4.6rem;
     opacity: 0.9;
     position: absolute;
@@ -249,15 +254,18 @@
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     text-shadow: 2px 2px #fff;
   }
+  .List {
+    margin-top: 5px;
+    width: 900px;
+  }
 }
 
 /*Mobile*/
 @media screen and (max-width: 600px) {
   .images {
-    width: 80%;
+    width: 100%;
     opacity: 0.8;
     height: 60%;
-    margin-left: 10%;
   }
   .MainPhrase {
     padding-left: 10%;
@@ -285,7 +293,7 @@
     height: 100%;
   }
   .SubTile {
-    margin-left: 15%;
+    margin-left: 10%;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 1.5rem;
@@ -295,7 +303,7 @@
   }
   .Phrase {
     padding-top: 0px;
-    padding-left: 15%;
+    padding-left: 10%;
     padding-right: 11%;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -376,5 +384,11 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     text-shadow: 2px 2px #fff;
+  }
+  .List {
+    margin-top: 5px;
+    width: 300px;
+    font-size: 13px;
+    padding-right: 20px;
   }
 }

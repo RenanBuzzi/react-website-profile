@@ -138,6 +138,9 @@ const Experiences = () => {
           <div className="lastItem"></div>
         </div>
 
+        <div class="imgLogo">
+          <img className="imgCareer" alt="roche" src="images/roche.png" />
+        </div>
         <div class="companyDetails">
           <div class="role">IT Support Analyst - Full-time</div>
           <div class="companyInformation">

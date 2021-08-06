@@ -1,4 +1,4 @@
-@media only screen and (max-width: 2000px) {
+@media only screen and (max-width: 1980px) {
 .mainContainer {
   width: 100%;
   height: 100%;
@@ -56,6 +56,7 @@
 .ListActivities {
   margin-left: 160px;
   margin-top: 5px;
+  width: 800px;
 }
 .lastItem {
   margin-bottom: 50px;
@@ -68,18 +69,103 @@
   color: slategrey;
 }
 .subtitile {
-  margin-left: 60px;
+  margin-left: 150px;
   margin-top: 20px;
   font-size: 15px;
   margin-bottom: 20px;
   font-weight: bold;
 }
 .totalHours {
-  margin-left: 60px;
+  margin-left: 0px;
   font-size: 15px;
   font-weight: bold;
+  width: 400px;
 }
 }
+
+@media only screen and (max-width: 1600px) {
+  .mainContainer {
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  .imgCareer {
+    size: 150px;
+    height: 150px;
+    margin-left: 250px;
+  }
+  .imgCareerDrummond {
+    size: 130px;
+    height: 130px;
+    padding-left: 40px;
+  }
+  .title {
+    size: 50px;
+    margin-left: 450px;
+    margin-top: 150px;
+    margin-bottom: 25px;
+  }
+  .Logos {
+    width: 15%;
+  }
+  .imgLogo {
+    width: 15%;
+    /* background: silver; */
+    float: left;
+  }
+  
+  .companyDetails {
+    margin-left: 15%;
+    /* height: 200px; */
+    /* background: silver; */
+  }
+  .role {
+    margin-left: 10%;
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  .companyInformation {
+    width: 700px;
+    margin-left: 85px;
+  }
+  
+  .technicalSkills {
+    width: 700px;
+    margin-left: 160px;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  .ListActivities {
+    margin-left: 160px;
+    margin-top: 5px;
+    width: 800px;
+  }
+  .lastItem {
+    margin-bottom: 50px;
+  }
+  .mainTechnologies {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    font-weight: bold;
+    color: slategrey;
+  }
+  .subtitile {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  .totalHours {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  }
 
 @media only screen and (max-width: 506px) {
   .mainContainer {
@@ -101,8 +187,52 @@
     padding-left: 0px;
   }
   .totalHours {
-    margin-left: 30px;
+    margin-left: 0px;
     font-size: 10px;
     font-weight: bold;
+    width: 250px;
+  }
+}
+
+/*Responsive Horizontal*/
+@media only screen and (max-width: 651px) and (max-height:391px) {
+  .mainContainer {
+    width: 100%;
+    height: 100%;
+    padding-right: 15px;
+    margin-top: 0px;
+  }
+  .subtitile {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  .imgCareerDrummond {
+    size: 55px;
+    height: 55px;
+    padding-left: 0px;
+  }
+  .role {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  .totalHours {
+    font-size: 10px;
+    font-weight: bold;
+    width: 250px;
+    padding-left: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 812px) {
+  .imgCareerDrummond {
+    size: 60px;
+    height: 60px;
+    padding-left: 0px;
+    margin-top: 50px;
   }
 }
