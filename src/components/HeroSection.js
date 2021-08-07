@@ -8,7 +8,8 @@ const HeroSection = () => {
   return (
     <div className="hero-container">
       <div className="video">
-        <video src="/videos/Coding.mp4" autoPlay loop muted></video>
+        {/* <video src="/videos/Coding.mp4" autoPlay loop muted></video> */}
+        <video src="/videos/Coding.mp4" muted></video>
       </div>
       <h1>Renan Buzzi</h1>
       {/* <div class="typewriter">
