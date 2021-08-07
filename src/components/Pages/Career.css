@@ -5,7 +5,7 @@ color: red;
 
 @media only screen and (max-width: 1980px) {
 .mainContainer {
-  width: 98%;
+  width: 97%;
   height: 100%;
   margin-left: 20px;
 }
@@ -195,7 +195,7 @@ color: red;
 /*Responsive*/
  @media only screen and (max-width: 506px) {
   .mainContainer {
-    width: 100%;
+    width: 98%;
     height: 100%;
   }
   .h1 {
@@ -395,11 +395,11 @@ color: red;
     margin-bottom: 10px;
     font-size: 15px;
     padding-top: 50px;
-    width: 210px;
+    width: 170px;
   }
   .tabs{
     position: fixed;
-    width: 100%;
+    width: 98%;
   }
   .companyInformation {
     width: auto;
@@ -415,7 +415,7 @@ color: red;
     font-size: 10px;
     margin-bottom: 10px;
     font-weight: bold;
-    width: 190px;
+    width: 170px;
   }
   .ListActivities {
     padding-left: 0px;
@@ -423,12 +423,12 @@ color: red;
     width: auto;
     font-size: 10px;
     padding-right: 20px;
-    width: 190px;
+    width: 165px;
 
   }
   .lastItem {
     margin-bottom: 50px;
-    width: 230px;
+    width: 200px;
   }
   .mainTechnologies {
     margin-top: 30px;

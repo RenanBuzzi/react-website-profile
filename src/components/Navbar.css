@@ -79,7 +79,7 @@
   color: orange;
 }
 .fa-bars {
-  color: #242424;
+  color: orange;
 }
 .nav-links-mobile {
   display: none;
@@ -127,7 +127,7 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
-    overflow:auto;
+    overflow-y: scroll;
   }
 
   .nav-links {
@@ -257,6 +257,16 @@
       padding-top: 3px;
       color: orange;
     }
+    .nav-menu.active {
+      background: linear-gradient(90deg, rgb(28, 27, 27) 0%, #ea1d63 200%);
+      opacity: 0.8;
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+      overflow-y: scroll;
+    }
+  
   }
 
   @media screen and (max-width: 416px) {
@@ -273,6 +283,15 @@
   font-weight: bold;
   color: orange;
   padding-top: 1px;
+}
+.nav-menu.active {
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, #ea1d63 200%);
+  opacity: 0.8;
+  left: 0;
+  opacity: 1;
+  transition: all 0.5s ease;
+  z-index: 1;
+  overflow-y: scroll;
 }
 
   }
