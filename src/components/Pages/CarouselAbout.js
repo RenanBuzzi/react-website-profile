@@ -52,21 +52,6 @@ const CarouselAbout = () => {
           ))}
         </Slider>
       </div>
-      {/* <div>
-        <Slider>
-          <div class="content">
-            <div class="slider-wrapper">
-              Certifications
-              <div class="slider">
-                <div class="slider-text1">Scrum Master Professional</div>
-                <div class="slider-text2">Scrum Foundation</div>
-                <div class="slider-text3">Information System</div>
-                <div class="slider-text4">Busniess Intelligence</div>
-              </div>
-            </div>
-          </div>
-        </Slider>
-      </div> */}
     </>
   );
 };

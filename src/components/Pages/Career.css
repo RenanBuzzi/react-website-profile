@@ -1,3 +1,8 @@
+/* *{
+border-style: solid;
+color: red;
+} */
+
 @media only screen and (max-width: 1980px) {
 .mainContainer {
   width: 98%;
@@ -42,7 +47,7 @@
   text-decoration: underline;
 }
 .companyInformation {
-  width: 400px;
+  width: 350px;
   margin-left: 75px;
 }
 
@@ -220,7 +225,7 @@
   }
   
   .companyDetails {
-    width: 250px;
+    width: 200px;
     padding-right: 10px;
     margin-left: 60px;
   }
@@ -390,7 +395,7 @@
     margin-bottom: 10px;
     font-size: 15px;
     padding-top: 50px;
-    width: 230px;
+    width: 210px;
   }
   .tabs{
     position: fixed;
@@ -410,7 +415,7 @@
     font-size: 10px;
     margin-bottom: 10px;
     font-weight: bold;
-    width: 230px;
+    width: 190px;
   }
   .ListActivities {
     padding-left: 0px;
@@ -418,7 +423,7 @@
     width: auto;
     font-size: 10px;
     padding-right: 20px;
-    width: 230px;
+    width: 190px;
 
   }
   .lastItem {

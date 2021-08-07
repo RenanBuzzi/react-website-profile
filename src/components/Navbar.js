@@ -28,9 +28,12 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <i class="fa fa-code" aria-hidden="true"></i>
+            <i class="fas fa-angle-left" aria-hidden="true"></i>
+            <i class="fas fa-angle-right" aria-hidden="true"></i>
             &nbsp;Renan Buzzi&nbsp;
-            <i class="fa fa-code" aria-hidden="true"></i>
+            <i class="fas fa-angle-left" aria-hidden="true"></i>
+            <div className="bar">/</div>
+            <i class="fas fa-angle-right" aria-hidden="true"></i>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fa fa-times" : "fa fa-bars"} />

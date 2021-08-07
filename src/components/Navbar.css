@@ -15,7 +15,7 @@
 }
 .navbar-container {
   display: flex;
-  justify-content: center;
+  justify-content: top;
   align-items: center;
   height: 80px;
   max-width: auto;
@@ -28,23 +28,29 @@
   text-decoration: none;
   font-size: 1.9rem;
   display: flex;
-  align-items: left;
 }
+
 .navbar-logo:hover {
   opacity: 0.8;
 }
-.fa-code {
+.bar{
+  font-size: 30px;
+  font-weight: bold;
+  color: orange;
+  padding-top: 2px;
+}
+.fa-angle-left {
+  padding-top: 3px;
   color: orange;
 }
-.fa-code:hover {
-  color: #2c3e50;
+.fa-angle-right {
+  padding-top: 3px;
+  color: orange;
 }
-
 .fa-typo3 {
   margin-left: 0.5rem;
   font-size: 1.5rem;
 }
-
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(4, auto);
@@ -55,12 +61,10 @@
   justify-content: end;
   margin-right: 2rem;
 }
-
 .nav-item {
   height: 80px;
   width: 100%;
 }
-
 .nav-links {
   color: #fff;
   display: flex;
@@ -69,21 +73,17 @@
   padding: 0.5rem 1rem;
   height: 100%;
 }
-
 .nav-links:hover {
   border-bottom: 6px solid orange;
   transition: all 0.2s ease-out;
   color: orange;
 }
-
 .fa-bars {
   color: #242424;
 }
-
 .nav-links-mobile {
   display: none;
 }
-
 .menu-icon {
   display: none;
 }
@@ -190,11 +190,19 @@
     color: #fff;
     transition: 250ms;
   }
-  .fa-code {
+  .bar{
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+    padding-top: 2px;
+  }
+  .fa-angle-left {
+    padding-top: 3px;
     color: orange;
   }
-  .fa-code:hover {
-    color: #2c3e50;
+  .fa-angle-right {
+    padding-top: 3px;
+    color: orange;
   }
 
   .nav-links-socialNetWork {
@@ -233,6 +241,20 @@
       top: -15px;
       transform: translate(0%, 50%);
       font-size: 1.5rem;
+    }
+    .bar{
+      font-size: 30px;
+      font-weight: bold;
+      color: orange;
+      padding-top: 0px;
+    }
+    .fa-angle-left {
+      padding-top: 3px;
+      color: orange;
+    }
+    .fa-angle-right {
+      padding-top: 3px;
+      color: orange;
     }
   }
 
