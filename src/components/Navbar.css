@@ -33,7 +33,7 @@
 .navbar-logo:hover {
   opacity: 0.8;
 }
-.bar{
+.headerBar{
   font-size: 30px;
   font-weight: bold;
   color: orange;
@@ -127,6 +127,7 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    overflow:auto;
   }
 
   .nav-links {
@@ -137,7 +138,7 @@
   }
 
   .nav-links:hover {
-    background-color: #ea1d63;
+    /* background-color: #ea1d63; */
     opacity: 0.8;
     color: 330748;
     border-radius: 0;
@@ -190,8 +191,8 @@
     color: #fff;
     transition: 250ms;
   }
-  .bar{
-    font-size: 30px;
+  .headerBar{
+    font-size: 25px;
     font-weight: bold;
     color: orange;
     padding-top: 2px;
@@ -243,10 +244,10 @@
       font-size: 1.5rem;
     }
     .bar{
-      font-size: 30px;
+      font-size: 25px;
       font-weight: bold;
       color: orange;
-      padding-top: 0px;
+      padding-top: 1px;
     }
     .fa-angle-left {
       padding-top: 3px;
@@ -266,6 +267,12 @@
   align-items: left;
   height: 80px;
   max-width: auto;
+}
+.bar{
+  font-size: 30px;
+  font-weight: bold;
+  color: orange;
+  padding-top: 1px;
 }
 
   }

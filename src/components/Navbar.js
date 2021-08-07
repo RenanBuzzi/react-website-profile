@@ -32,7 +32,7 @@ function Navbar() {
             <i class="fas fa-angle-right" aria-hidden="true"></i>
             &nbsp;Renan Buzzi&nbsp;
             <i class="fas fa-angle-left" aria-hidden="true"></i>
-            <div className="bar">/</div>
+            <div className="headerBar">/</div>
             <i class="fas fa-angle-right" aria-hidden="true"></i>
           </Link>
           <div className="menu-icon" onClick={handleClick}>

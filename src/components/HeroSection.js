@@ -7,6 +7,9 @@ import "./TypeMessage.css";
 const HeroSection = () => {
   return (
     <div className="hero-container">
+      {/* <div className="homeImage">
+        <img alt="HomeCodeImage" src="images/homeImages/codeLarge.jpg" />
+      </div> */}
       <div className="video">
         {/* <video src="/videos/Coding.mp4" autoPlay loop muted></video> */}
         <video

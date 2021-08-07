@@ -32,11 +32,17 @@ function Footer() {
       </div>
       <section class="social-media">
         <div class="social-media-wrap">
-          <div class="footer-logo">
-            <Link to="/" className="social-logo">
+          <div class="social-logo">
+            <i class="fas fa-angle-left" aria-hidden="true"></i>
+            <i class="fas fa-angle-right" aria-hidden="true"></i>
+            &nbsp;Renan Buzzi © 2021&nbsp;
+            <i class="fas fa-angle-left" aria-hidden="true"></i>
+            <div className="bar">/</div>
+            <i class="fas fa-angle-right" aria-hidden="true"></i>
+            {/* <Link to="/" className="social-logo">
               <i class="fa fa-code" aria-hidden="true"></i>&nbsp;Renan Buzzi ©
               2021&nbsp; <i class="fa fa-code" aria-hidden="true"></i>
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div class="social-icons">
