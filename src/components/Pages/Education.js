@@ -73,15 +73,13 @@ const Education = () => {
           />
         </div>
         <div class="companyDetails">
-          <div class="role">University Calos Drummond de Andrade</div>
+          <div class="role">University Calros Drummond de Andrade</div>
           <div class="companyInformation">
             <div className="companyInformation">
               Information System - Average Score 8.5.
             </div>
             <div className="companyInformation"> Jun 2006 – Jun 2010</div>
-            <div className="companyInformation">
-              São Paulo, Sao Paulo, Brazil
-            </div>
+            <div className="companyInformation">São Paulo, Brazil</div>
           </div>
           <div className="technicalSkills">Module: General Training</div>
           <div className="ListActivities">• Auditor de sistemas.</div>
