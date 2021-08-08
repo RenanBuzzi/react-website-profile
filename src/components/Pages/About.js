@@ -18,13 +18,13 @@ const About = () => {
           Brazilian, in my early 30’s, married and enthusiastic for technology.
           After a long journey in Australia and Panama for studies and work
           purposes, I decided to stopover in London, one of the best capital
-          cities outside the US, for tech professionals to learn and improve my
-          skills. Here I worked for a Financial Start-up, Red Cloud, and now I
-          am working for one of the biggest and traditional Music companies in
-          the UK, PRS for Music. But challenging myself, my wife and I decided
-          to start a new tech project, which is still early, but with big
-          aspirations. Being here has inspired us to study and develop even
-          more. Please get to know me better!
+          cities outside the US, for tech professionals. Here I worked for a
+          Fintech, Red Cloud, and now I am working for one of the biggest and
+          traditional Music companies in the UK, PRS for Music. But challenging
+          myself, my wife and I have decided to start a new tech project, which
+          is still early stage, but with big aspirations. Being here has
+          inspired us to study and develop even more. Please get to know me
+          better!
         </div>
         <div>
           <img className="images" alt="education" src="images/education.jpg" />
@@ -32,9 +32,9 @@ const About = () => {
         <div className="Education">Education</div>
         <div className="SubTile">Background.</div>
         <div className="Phrase">
-          Graduated in Information System at University Carlos Drummond de
-          Andrade in 2010, Post Graduate in Business Intelligence from the
-          Institution (IBTA), Brazilian Institute of Advanced Technology in
+          Graduated in <b>Information System</b> at University Carlos Drummond
+          de Andrade in 2010, Post Graduate in <b>Business Intelligence</b> from
+          the Institution (IBTA), Brazilian Institute of Advanced Technology in
           2012. AGILE methodology of Scrum Master and Scrum fundamentals.
           Self-learning full stack-developer.
         </div>

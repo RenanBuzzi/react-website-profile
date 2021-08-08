@@ -10,7 +10,7 @@ const Experiences = () => {
           <img className="imgCareer" alt="prs" src="images/PRS.png" />
         </div>
         <div class="companyDetails">
-          <div class="role">C# Developer</div>
+          <div class="role">Software Engineer</div>
           <div class="companyInformation">
             <div className="companyInformation">PRS for Music - Full-time</div>
             <div className="companyInformation"> Oct 2019 – Present</div>
