@@ -1,3 +1,7 @@
+/* *{
+border-style: solid;
+color: red;
+} */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=sawp");
 
 @media screen and (max-width: 2000px) {
@@ -103,6 +107,96 @@
 }
 }
 
+@media screen and (max-width: 1024px) {
+  .navbar {
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, #ea1d63 200%);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    font-size: 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  .navbar-container {
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    height: 80px;
+    max-width: auto;
+  }
+  
+  .navbar-logo {
+    color: #fff;
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.9rem;
+    display: flex;
+    width: 270px;
+  }
+  
+  .navbar-logo:hover {
+    opacity: 0.8;
+  }
+  .headerBar{
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+    padding-top: 2px;
+  }
+  .fa-angle-left {
+    padding-top: 3px;
+    color: orange;
+  }
+  .fa-angle-right {
+    padding-top: 3px;
+    color: orange;
+  }
+  .fa-typo3 {
+    margin-left: 0.5rem;
+    font-size: 1.3rem;
+  }
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 30px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+  }
+  .nav-item {
+    height: 80px;
+    width: 100%;
+  }
+  .nav-links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+  }
+  .nav-links:hover {
+    border-bottom: 6px solid orange;
+    transition: all 0.2s ease-out;
+    color: orange;
+  }
+  .fa-bars {
+    color: orange;
+  }
+  .nav-links-mobile {
+    display: none;
+  }
+  .menu-icon {
+    display: none;
+  }
+  }
+
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
@@ -157,7 +251,7 @@
     top: 0;
     right: 0;
     transform: translate(-100%, 60%);
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     cursor: pointer;
   }
 
@@ -275,7 +369,7 @@
   justify-content: left;
   align-items: left;
   height: 80px;
-  max-width: auto;
+  max-width: 248px;
 }
 .bar{
   font-size: 30px;

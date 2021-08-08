@@ -2,15 +2,14 @@
 .ContainerRight {
   margin-left: 50%;
   width: 50%;
-  height: 550px;
+  height: 540px;
 }
 .ContainerLeft {
-  width: 950px;
-  height: 550px;
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, #ea1d63 400%);
+  width: 50%;
+  height: 540px;
   float: left;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, #ea1d63 400%);
 }
-
 .textfield {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -21,69 +20,46 @@
   margin-bottom: 10px;
   margin-left: 13px;
 }
-.LogoRGB {
-  width: 150px;
-  height: 150px;
-  margin-top: 0px;
-  margin-left: 250px;
-}
-.logoContactMe {
-  margin-left: 150px;
-  width: 50px;
-  height: 120px;
-  margin-top: 30px;
-}
-.imagesLogoRGB {
-  width: 200px;
-  height: 200px;
-  margin-top: 0px;
-  margin-left: 20px;
-}
 }
 
 @media screen and (max-width: 1600px) {
   .ContainerRight {
     margin-left: 50%;
     width: 50%;
-    height: 550px;
+    height: 380px;
+    /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, #ea1d63 400%); */
   }
   .ContainerLeft {
     width: 50%;
-    height: 550px;
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, #ea1d63 400%);
+    height: 380px;
     float: left;
   }
   .buttonSubmit {
-    margin-bottom: 10px;
-    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+  }
+  .textfield {
+    margin-top: 0px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .ContainerRight {
-    margin-top: 20px;
-    margin-left: 40%;
-    width: 57%;
-    margin-bottom: 20px;
-  }
   .ContainerLeft {
-    width: 50%;
-    height: 0px;
-    margin-left: 130px;
-    margin-top: 50px;
-    float: left;
+    width: 100%;
+    height: 100%;
+    margin-left: 0px; 
+    margin-top: 0px;
+    margin-bottom: 30px;
   }
-  .LogoRGB {
-    width: 100px;
-    height: 150px;
-    margin-top: -50px;
-    margin-left: -40px;
-  }
-  .logoContactMe {
-    margin-left: -170px;
-    width: 380px;
-    height: 120px;
-    margin-top: 100px;
+  .ContainerRight {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
   }
   .textfield {
     margin-bottom: 30px;
@@ -91,49 +67,25 @@
     margin-right: 20px;
   }
   .buttonSubmit {
-    margin-bottom: 20px;
-  }
-  .imagesLogoRGB {
-    width: 80%;
-    opacity: 0.8;
-    height: 60%;
-    margin-left: 10%;
-  }
-  .imagesContact {
-    display: none;
-    width: 80%;
-    opacity: 0.8;
-    height: 60%;
-    margin-left: 10%;
+    padding-left: 10px;
   }
 }
 
 /*Mobile*/
 @media screen and (max-width: 600px) {
-  .ContainerRight {
-    margin-top: 20px;
-    margin-left: 5%;
-    width: 90%;
-    margin-bottom: 20px;
-  }
   .ContainerLeft {
-    width: 0%;
-    height: 0px;
-    margin-left: 55px;
+    width: 100%;
+    height: 100%;
+    margin-left: 0px; 
     margin-top: 0px;
-    float: left;
+    margin-bottom: 30px;
   }
-  .LogoRGB {
-    width: 100px;
-    height: 150px;
-    margin-top: -40px;
-    margin-left: -40px;
-  }
-  .logoContactMe {
-    margin-left: -90px;
-    width: 210px;
-    height: 120px;
-    margin-top: -50px;
+  .ContainerRight {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 780px;
+    margin-bottom: 0px;
   }
   .textfield {
     margin-bottom: 30px;
@@ -141,13 +93,6 @@
     margin-right: 20px;
   }
   .buttonSubmit {
-    margin-bottom: 20px;
-  }
-  .imagesContact {
-    display: none;
-    width: 80%;
-    opacity: 0.8;
-    height: 60%;
-    margin-left: 10%;
+    padding-left: 10px;
   }
 }
