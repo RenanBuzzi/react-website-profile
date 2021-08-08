@@ -95,7 +95,7 @@ export default function Contact() {
                     fullWidth
                     name="name"
                     variant="standard"
-                    label="Add your name name"
+                    label="Full Name"
                     size="large"
                     value={values.name}
                     onChange={handleInputChange}
@@ -113,7 +113,7 @@ export default function Contact() {
                     fullWidth
                     name="email"
                     variant="standard"
-                    label="Add your email address"
+                    label="Email address"
                     value={values.email}
                     onChange={handleInputChange}
                     {...(errors.email && {
@@ -131,7 +131,7 @@ export default function Contact() {
                     className="textFields"
                     name="subject"
                     variant="standard"
-                    label="Add the subject"
+                    label="Subject"
                     value={values.subject}
                     onChange={handleInputChange}
                     {...(errors.subject && {
@@ -154,7 +154,7 @@ export default function Contact() {
                     placeholder="Minimum 5 rows"
                     name="message"
                     variant="outlined"
-                    label="Entry with you message"
+                    label="Message"
                     value={values.message}
                     onChange={handleInputChange}
                     {...(errors.message && {

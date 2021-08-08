@@ -15,7 +15,7 @@ const HeroSection = () => {
         <video
           type="video/mp4"
           src="/videos/Coding.mp4"
-          autoPlay={true}
+          // autoPlay={true}
           muted
         ></video>
       </div>

@@ -138,7 +138,7 @@ color: red;
     margin-left: 10px;
     margin-bottom: 10px;
     font-size: 30px;
-    width: 800px;
+    width: 400px;
   }
   .companyInformation {
     width: 400px;
@@ -157,6 +157,7 @@ color: red;
     margin-left: 10px;
     margin-top: 5px;
     margin-right: 40px;
+    width: 470px;
   }
   .lastItem {
     margin-bottom: 50px;
@@ -238,21 +239,21 @@ color: red;
   }
   .companyInformation {
     width: 250px;
-    margin-left: 20px;
+    margin-left: 18px;
     font-size: 10px;
     padding-right: 10px;
   }
   
   .technicalSkills {
     width: 250px;
-    margin-left: 40px;
+    margin-left: 35px;
     margin-top: 10px;
-    font-size: 10px;
+    font-size: 15px;
     margin-bottom: 10px;
     font-weight: bold;
   }
   .ListActivities {
-    margin-left: 40px;
+    margin-left: 35px;
     margin-top: 5px;
     width: 250px;
     font-size: 10px;
@@ -418,12 +419,11 @@ color: red;
     width: 170px;
   }
   .ListActivities {
-    padding-left: 0px;
     margin-top: 5px;
     width: auto;
     font-size: 10px;
-    padding-right: 20px;
-    width: 165px;
+    padding-right: 0px;
+    width: 190px;
 
   }
   .lastItem {

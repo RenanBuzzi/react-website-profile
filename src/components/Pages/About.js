@@ -43,38 +43,36 @@ const About = () => {
         </div>
         <div className="Skill">Skills</div>
         <div className="SubTile">My top skills.</div>
-        <div className="Phrase">
-          <div className="List">• C# ASPX / Razor / MVC and .Net Core </div>
-          <div className="List">
+        <div className="mainList">
+          <div>• C# ASPX / Razor / MVC and .Net Core </div>
+          <div>
             • Web API REST Services / SOAP / Web Services / WCF Services /
             Micro-services
           </div>
-          <div className="List">• Unit test.</div>
-          <div className="List">• Swagger.</div>
-          <div className="List">• Authorisation and Authentication.</div>
-          <div className="List">• Azure</div>
-          <div className="List">• Azure DocumentDB</div>
-          <div className="List">
+          <div>• Unit test.</div>
+          <div>• Swagger.</div>
+          <div>• Authorisation and Authentication.</div>
+          <div>• Azure</div>
+          <div>• Azure DocumentDB</div>
+          <div>
             • SQL Server 2016/2014/2012/2008 (SQL, T-SQL, SSIS, Stored
             Procedures)
           </div>
-          <div className="List">• Business Intelligence.</div>
-          <div className="List">• ETL</div>
-          <div className="List">• SSIS</div>
-          <div className="List">• Power BI</div>
-          <div className="List">• AWS Console/Gateway</div>
-          <div className="List">• AWS Lambda</div>
-          <div className="List">• Cognito</div>
-          <div className="List">• S3</div>
-          <div className="List">• React JS</div>
-          <div className="List">• HTML / CSS</div>
-          <div className="List">• Team City</div>
-          <div className="List">• Octopus Deploy</div>
-          <div className="List">
-            • GIT, Subversion, Team Foundation, and RTC.
-          </div>
-          <div className="List">• Agile: Scrum with Kanban.</div>
-          <div className="List">• SDLC</div>
+          <div>• Business Intelligence.</div>
+          <div>• ETL</div>
+          <div>• SSIS</div>
+          <div>• Power BI</div>
+          <div>• AWS Console/Gateway</div>
+          <div>• AWS Lambda</div>
+          <div>• Cognito</div>
+          <div>• S3</div>
+          <div>• React JS</div>
+          <div>• HTML / CSS</div>
+          <div>• Team City</div>
+          <div>• Octopus Deploy</div>
+          <div>• GIT, Subversion, Team Foundation, and RTC.</div>
+          <div>• Agile: Scrum with Kanban.</div>
+          <div>• SDLC</div>
         </div>
         <div>
           <img className="images" alt="hobby" src="images/hobby.jpg" />

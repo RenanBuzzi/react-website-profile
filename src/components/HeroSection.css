@@ -4,11 +4,10 @@
   } */
 
 @media only screen and (max-width: 2000px) {
-  
-  .video {
-    position: fixed;
-    z-index: -1;
-  } 
+.video {
+  position: fixed;
+  z-index: -1;
+} 
 .homeImage{
   opacity: 0.7;
   position: fixed;
@@ -33,7 +32,7 @@
   font-size: 4.6rem;
   margin-top: -100px;
   text-align: center;
-  text-shadow: 2px 2px #ea1d63;
+  text-shadow: 2px 3px #711C38;
 }
 
 .hero-container > p {
@@ -81,7 +80,7 @@
   color: #fff;
   font-size: 4.6rem;
   text-align: center;
-  text-shadow: 2px 2px #ea1d63;
+  text-shadow: 2px 3px #711C38;
 }
 
 .hero-container > p {
@@ -117,6 +116,6 @@
     font-size: 3.0rem;
     text-align: center;
     padding-top: 100px;
-    text-shadow: 2px 2px #ea1d63;
+    text-shadow: 2px 3px #711C38;
   }
 }
