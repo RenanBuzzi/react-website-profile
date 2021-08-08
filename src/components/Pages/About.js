@@ -36,7 +36,7 @@ const About = () => {
           Andrade in 2010, Post Graduate in Business Intelligence from the
           Institution (IBTA), Brazilian Institute of Advanced Technology in
           2012. AGILE methodology of Scrum Master and Scrum fundamentals.
-          Self-learning in front-end.
+          Self-learning full stack-developer.
         </div>
         <div>
           <img className="images" alt="skills" src="images/Skills1.jpg" />
