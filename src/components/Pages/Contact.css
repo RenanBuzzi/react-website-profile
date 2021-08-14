@@ -95,4 +95,7 @@
   .buttonSubmit {
     padding-left: 10px;
   }
+  ::-webkit-media-controls {
+    display:none !important;
+  }
 }
