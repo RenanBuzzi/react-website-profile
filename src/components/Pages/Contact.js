@@ -7,7 +7,6 @@ import "../Pages/Contact.css";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Grid, TextField, Button } from "@material-ui/core";
-// import ReactPlayer from "react-player";
 
 toast.configure();
 export default function Contact() {
@@ -87,10 +86,9 @@ export default function Contact() {
           <video
             className="ContainerLeft"
             src="images/videos/contactMe.mp4"
-            play={true}
-            // loop={true}
+            autoplay="autoplay"
+            loop={true}
             muted={false}
-            playsInline={false}
           ></video>
         </div>
         <div className="ContainerRight">

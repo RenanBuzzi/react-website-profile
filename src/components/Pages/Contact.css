@@ -95,7 +95,7 @@
   .buttonSubmit {
     padding-left: 10px;
   }
-  ::-webkit-media-controls {
-    display:none !important;
+  .custom-video-controls {
+    z-index: 2147483647;
   }
 }
