@@ -17,6 +17,8 @@ const HeroSection = () => {
           src="/videos/Coding.mp4"
           autoPlay={true}
           muted
+          loop
+          playsinline
         ></video>
       </div>
       <h1>Renan Buzzi</h1>
