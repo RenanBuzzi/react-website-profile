@@ -87,8 +87,8 @@ export default function Contact() {
           <video
             className="ContainerLeft"
             src="images/videos/contactMe.mp4"
-            autoPlay={true}
-            loop={true}
+            play={true}
+            // loop={true}
             muted={false}
             playsInline={false}
           ></video>
