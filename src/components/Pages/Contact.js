@@ -89,6 +89,7 @@ export default function Contact() {
             autoPlay={true}
             muted
             loop
+            playsinline
           ></video>
         </div>
         <div className="ContainerRight">
