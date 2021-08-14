@@ -10,6 +10,7 @@ const About = () => {
     <>
       <div>
         {/* Life */}
+        <div className="line"></div>
         <div className="containerLife">
           <video
             className="videoLife"
@@ -32,8 +33,10 @@ const About = () => {
             get to know me better!
           </div>
         </div>
+        <div className="line"></div>
 
         {/* Education */}
+        <div className="line"></div>
         <div className="containerEducation">
           <video
             className="videoEducation"
@@ -51,8 +54,10 @@ const About = () => {
             fundamentals. Self-learning full stack-developer.
           </div>
         </div>
+        <div className="line"></div>
 
         {/* Skills */}
+        <div className="line"></div>
         <div className="containerSkill">
           <video
             className="videoSkill"
@@ -73,8 +78,10 @@ const About = () => {
             Scrum with Kanban • SDLC
           </div>
         </div>
+        <div className="line"></div>
 
         {/* Hobiie */}
+        <div className="line"></div>
         <div className="containerHobbie">
           <video
             className="videoHobiie"
@@ -92,6 +99,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <div className="line"></div>
       <Footer />
     </>
   );

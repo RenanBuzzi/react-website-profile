@@ -3,12 +3,18 @@ border-style: solid;
 color: red;
 } */
 @media screen and (max-width: 2000px) {
+  .line{
+    width: 100%;
+    height: 170px;
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, #ea1d63 200%);
+  }
 .videoLife{
   width: 50%;
 }
 .containerLife{
   width: 100%;
   height: 535px;
+  
 }
 .SubTileRight {
   padding-right: 220px;
@@ -20,7 +26,6 @@ color: red;
   top: 10px;
   font-weight: bold;
   text-shadow: 2px 2px silver;
-  color: green;
 }
 .PhraseRight{
   width: 100%;
@@ -37,7 +42,7 @@ color: red;
 /*Education*/
 .containerEducation{
   width: 100%;
-  height: 465px;
+  height: 535px;
 }
 .videoEducation{
   margin-top: 0px;
@@ -51,7 +56,6 @@ color: red;
   padding-right: 32%;
   font-weight: bold;
   text-shadow: 2px 2px silver;
-  color:#ea1d63;
 }
 .PhraseLeft{
   padding-right: 5%;
@@ -71,23 +75,21 @@ color: red;
 
 .videoSkill{
   width: 50%;
-  margin-top: 70px;
 }
 .SubTileSkill {
   padding-right: 760px;
   font-size: 2.6rem;
   float: right;
-  margin-top: -490px;
+  margin-top: 65px;
   font-weight: bold;
   text-shadow: 2px 2px silver;
-  color: orangered;
 }
 .PhraseSkill{
   width: 100%;
   height: 50%;
   position: relative;
   padding-left: 55%;
-  top: -400px;
+  top: -350px;
   padding-right: 50px;
   font-size: 25px;
   
@@ -96,20 +98,19 @@ color: red;
 /*Hobiie*/
 .containerHobbie{
   width: 100%;
-  height: 610px;
+  height: 535px;
 }
 .videoHobiie{
   width: 50%;
   float: right;
 }
 .SubTileHobbie {
-  padding-top: 130px;
+  padding-top: 100px;
   font-size: 2.6rem;
   float: right;
   padding-right: 36%;
   font-weight: bold;
   text-shadow: 2px 2px silver;
-  color: purple;
 }
 .PhraseHobbie{
   float: left;
@@ -117,7 +118,7 @@ color: red;
   position: relative;
   padding-right: 100px;
   padding-left: 5.5%;
-  top: 20px;
+  top: 85px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
   Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 25px;
@@ -126,12 +127,17 @@ color: red;
 
 /*Mediun Size netWorkImageAbout*/
 @media screen and (max-width: 1600px) {
+  .line{
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, #ea1d63 200%);
+  }
   .videoLife{
     width: 50%;
   }
   .containerLife{
     width: 100%;
-    height: 380px;
+    height: 379px;
   }
   .SubTileRight {
     padding-right: 220px;
@@ -147,16 +153,16 @@ color: red;
     width: 100%;
     height: 57%;
     position: relative;
-    padding-left: 55%;
-    top: -250px;
+    padding-left: 53%;
+    top: -280px;
     padding-right: 150px;
-    font-size: 15px;
+    font-size: 17px;
   }
   
   /*Education*/
   .containerEducation{
     width: 100%;
-    height: 300px;
+    height: 379px;
   }
   .videoEducation{
     margin-top: 0px;
@@ -190,12 +196,11 @@ color: red;
   /*Skills*/
   .containerSkill{
     width: 100%;
-    height: 450px;
+    height: 379px;
   }
   
   .videoSkill{
     width: 50%;
-    margin-top: 80px;
   }
   .SubTileSkill {
     
@@ -204,7 +209,7 @@ color: red;
     padding-left: 60px;
     font-size: 1.8rem;
     float: right;
-    margin-top: -330px;
+    margin-top: 0x;
     font-weight: bold;
     text-shadow: 2px 2px silver;
   }
@@ -214,14 +219,14 @@ color: red;
     position: relative;
     padding-left: 55%;
     top: -250px;
-    padding-right: 20px;
-    font-size: 15px;
+    padding-right: 50px;
+    font-size: 18px;
   }
   
   /*Hobiie*/
   .containerHobbie{
     width: 100%;
-    height: 393px;
+    height: 379px;
   }
   .videoHobiie{
     width: 50%;
@@ -240,7 +245,7 @@ color: red;
     position: relative;
     padding-right: 100px;
     padding-left: 5.5%;
-    top: 20px;
+    top: 45px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
