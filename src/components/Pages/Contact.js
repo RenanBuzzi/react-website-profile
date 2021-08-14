@@ -84,21 +84,13 @@ export default function Contact() {
     <>
       <div className="mainDiv">
         <div>
-          {/* <ReactPlayer
-            width="100%"
-            height="100%"
-            playing={true}
-            url="https://youtu.be/sAFHq4lOBho"
-            loop={true}
-            muted
-            controls={false}
-          /> */}
           <video
             className="ContainerLeft"
             src="images/videos/contactMe.mp4"
-            autoPlay
-            loop
-            muted
+            autoPlay={true}
+            loop={true}
+            muted={false}
+            playsInline={false}
           ></video>
         </div>
         <div className="ContainerRight">
