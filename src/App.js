@@ -7,7 +7,7 @@ import About from "./components/Pages/About";
 import Contact from "./components/Pages/Contact";
 import Career from "./components/Pages/Career";
 
-function App() {
+const App = () => {
   return (
     <>
       <Router>
@@ -22,6 +22,6 @@ function App() {
       </Router>
     </>
   );
-}
+};
 
 export default App;
