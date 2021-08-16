@@ -16,9 +16,10 @@ const About = () => {
             className="videoLife"
             src="images/videos/life.mp4"
             autoPlay
-            loop
+            // loop
             muted
             playsinline
+            controls={false}
           ></video>
           <div className="SubTileRight">Renan Buzzi, tell about yourself?</div>
           <div className="PhraseRight">
@@ -42,7 +43,7 @@ const About = () => {
           <video
             className="videoEducation"
             src="images/videos/education.mp4"
-            autoPlay
+            // autoPlay
             loop
             muted
             playsinline
@@ -64,7 +65,7 @@ const About = () => {
           <video
             className="videoSkill"
             src="images/videos/Skills.mp4"
-            autoPlay
+            // autoPlay
             loop
             muted
             playsinline
@@ -89,7 +90,7 @@ const About = () => {
           <video
             className="videoHobiie"
             src="images/videos/hobbies.mp4"
-            autoPlay
+            // autoPlay
             loop
             muted
             playsinline
