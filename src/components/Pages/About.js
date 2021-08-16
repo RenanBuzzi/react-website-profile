@@ -12,31 +12,16 @@ const About = () => {
         {/* Life */}
         <div className="line"></div>
         <div className="containerLife">
-          <iframe
-            allow="autoplay"
-            loop={0}
-            frameborder={0}
-            width="50%"
-            height="100%"
-            className="videoLife"
-            typeof="video"
-            title="video"
-            src="images/videos/life.mp4"
-            allowFullScreen="0"
-            webkitallowfullscreen=""
-            mozallowfullscreen=""
-            controls={0}
-          ></iframe>
-          {/* <video
+          <video
             className="videoLife"
             src="images/videos/life.mp4"
             autoPlay
             loop
-            allowfullscreen="false"
+            allowfullscreen=""
             muted
             playsinline
             controls={false}
-          ></video> */}
+          ></video>
           <div className="SubTileRight">Renan Buzzi, tell about yourself?</div>
           <div className="PhraseRight">
             Brazilian, in my early 30’s, married and enthusiastic for
