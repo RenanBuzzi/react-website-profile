@@ -19,7 +19,6 @@ const About = () => {
             loop
             muted
             playsinline
-            controls=""
           ></video>
           <div className="SubTileRight">Renan Buzzi, tell about yourself?</div>
           <div className="PhraseRight">
@@ -41,9 +40,9 @@ const About = () => {
         <div className="line"></div>
         <div className="containerEducation">
           <video
-            playsinline
             className="videoEducation"
             src="images/videos/education.mp4"
+            playsinline
             autoPlay
             loop
             muted
