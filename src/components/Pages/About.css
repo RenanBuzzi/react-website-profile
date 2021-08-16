@@ -377,4 +377,8 @@ color: red;
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
   }
+  video::-webkit-media-controls-fullscreen-button
+{
+        display: none !important;
+}
 }

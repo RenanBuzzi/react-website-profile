@@ -16,7 +16,8 @@ const About = () => {
             className="videoLife"
             src="images/videos/life.mp4"
             autoPlay
-            // loop
+            loop
+            allowfullscreen="false"
             muted
             playsinline
             controls={false}
