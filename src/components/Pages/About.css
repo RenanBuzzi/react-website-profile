@@ -134,6 +134,7 @@ color: red;
   }
   .videoLife{
     width: 50%;
+    height: 100%;
   }
   .containerLife{
     width: 100%;
@@ -168,6 +169,7 @@ color: red;
     margin-top: 0px;
     width: 50%;
     float: right;
+    height: 100%;
   }
   .SubTileLeft {
     padding-top: 50px;
@@ -201,6 +203,7 @@ color: red;
   
   .videoSkill{
     width: 50%;
+    height: 100%;
   }
   .SubTileSkill {
     
@@ -230,6 +233,7 @@ color: red;
   }
   .videoHobiie{
     width: 50%;
+    height: 100%;
   }
   .SubTileHobbie {
     padding-top: 80px;
