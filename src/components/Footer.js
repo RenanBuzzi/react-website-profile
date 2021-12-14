@@ -13,19 +13,19 @@ function Footer() {
       <div class="footer-links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <h2>Home</h2>
+            {/* <h2>Home</h2> */}
             <Link to="/">Home Page</Link>
           </div>
           <div class="footer-link-items">
-            <h2>About</h2>
+            {/* <h2>About</h2> */}
             <Link to="/About">Abount</Link>
           </div>
           <div class="footer-link-items">
-            <h2>Career</h2>
+            {/* <h2>Career</h2> */}
             <Link to="/Career">Career</Link>
           </div>
           <div class="footer-link-items">
-            <h2>Contact</h2>
+            {/* <h2>Contact</h2> */}
             <Link to="/Contact">Contact</Link>
           </div>
         </div>
