@@ -189,6 +189,7 @@ export default function Contact() {
             </Grid>
           </form>
         </div>
+        <div className="line"></div>
         <Footer />
       </div>
     </>

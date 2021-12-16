@@ -14,7 +14,7 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             {/* <h2>Home</h2> */}
-            <Link to="/">Home Page</Link>
+            <Link to="/">Home</Link>
           </div>
           <div class="footer-link-items">
             {/* <h2>About</h2> */}

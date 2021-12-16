@@ -10,7 +10,7 @@ const About = () => {
     <>
       <div>
         {/* Life */}
-        <div className="line"></div>
+        {/* <div className="line"></div> */}
         <div className="containerLife">
           <video
             className="videoLife"
