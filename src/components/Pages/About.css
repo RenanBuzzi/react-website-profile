@@ -137,10 +137,10 @@ color: red;
   }
   .containerLife{
     width: 100%;
-    height: 379px;
+    height: 425px;
   }
   .SubTileRight {
-    padding-right: 220px;
+    padding-right: 300px;
     top: 10px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -162,11 +162,12 @@ color: red;
   /*Education*/
   .containerEducation{
     width: 100%;
-    height: 379px;
+    height: 425px;
   }
   .videoEducation{
     margin-top: 0px;
-    width: 50%;
+    width: 44.6%;
+    height: 100%;
     float: right;
   }
   .SubTileLeft {
@@ -175,7 +176,7 @@ color: red;
     font-size: 1.7rem;
     float: right;
     top: 50px;
-    padding-right: 33%;
+    padding-right: 35.5%;
     font-weight: bold;
     text-shadow: 2px 2px silver;
   }
@@ -196,7 +197,7 @@ color: red;
   /*Skills*/
   .containerSkill{
     width: 100%;
-    height: 379px;
+    height: 425px;
   }
   
   .videoSkill{
@@ -206,7 +207,7 @@ color: red;
     
     width: 50%;
     padding-right: 20px;
-    padding-left: 60px;
+    padding-left: 70px;
     font-size: 1.8rem;
     float: right;
     margin-top: 0x;
@@ -226,7 +227,7 @@ color: red;
   /*Hobiie*/
   .containerHobbie{
     width: 100%;
-    height: 379px;
+    height: 425px;
   }
   .videoHobiie{
     width: 50%;
@@ -235,7 +236,7 @@ color: red;
     padding-top: 80px;
     font-size: 1.6rem;
     float: right;
-    padding-right: 37%;
+    padding-right: 39%;
     font-weight: bold;
     text-shadow: 2px 2px silver;
   }
