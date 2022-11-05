@@ -7,6 +7,7 @@
 .ContainerLeft {
   width: 50%;
   height: 540px;
+  width: auto;
   float: left;
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, #ea1d63 400%);
 }
