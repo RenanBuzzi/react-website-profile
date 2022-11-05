@@ -33,6 +33,7 @@
   .ContainerLeft {
     width: 50%;
     height: 380px;
+    width: auto;
     float: left;
   }
   .buttonSubmit {
