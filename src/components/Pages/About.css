@@ -265,7 +265,7 @@ color: red;
   }
   .containerLife{
     width: 100%;
-    height: 650px;
+    height: 620px;
   }
   .SubTileRight {
    padding-left: 20px;
@@ -291,7 +291,7 @@ color: red;
   /*Education*/
   .containerEducation{
     width: 100%;
-    height: 580px;
+    height: auto;
   }
   .videoEducation{
     margin-top: 0px;
@@ -322,11 +322,12 @@ color: red;
   /*Skills*/
   .containerSkill{
     width: 100%;
-    height: 630px;
+    height: 620px;
   }
   
   .videoSkill{
     width: 100%;
+    margin-top: 150px;
   }
   .SubTileSkill {
     padding-right: 20px;
@@ -351,10 +352,11 @@ color: red;
    /*Hobiie*/
   .containerHobbie{
     width: 100%;
-    height: 580px;
+    height: 700px;
   }
   .videoHobiie{
     width: 100%;
+    margin-top: 150px;
   }
   .SubTileHobbie {
     padding-top: 60px;

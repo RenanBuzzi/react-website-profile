@@ -72,7 +72,7 @@ export default function Contact() {
     if (validate()) {
       sendEmail(e);
       resetForm();
-      toast.success("Message has been sent successfully!", {
+      toast.dark("Message has been sent successfully!", {
         position: toast.POSITION.TOP_CENTER,
         autoClose: 8000,
       });
@@ -175,13 +175,13 @@ export default function Contact() {
                 <div className="buttonSubmit">
                   <Grid item xs={12}>
                     <Button
-                      className="textfield"
+                      // className="textfield"
                       variant="contained"
-                      color="primary"
+                      color="default"
                       type="submit"
-                      size="small"
+                      size="medium"
                     >
-                      Submit
+                      Submit Email
                     </Button>
                   </Grid>
                 </div>

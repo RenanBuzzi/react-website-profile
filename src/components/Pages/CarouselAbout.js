@@ -5,10 +5,11 @@ import bsi from "../ImagesCarousel/BSI.jpg";
 import MBABI from "../ImagesCarousel/MBABI.jpg";
 import SFC from "../ImagesCarousel/SFC.jpg";
 import SMPC from "../ImagesCarousel/SMPC.jpg";
+import OC from "../ImagesCarousel/OracleCertification.jpg";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import "../Pages/SliderSliding.css";
 
-const images = [bsi, MBABI, SFC, SMPC];
+const images = [bsi, MBABI, SFC, SMPC, OC];
 
 const CarouselAbout = () => {
   const NextArrow = ({ onClick }) => {
